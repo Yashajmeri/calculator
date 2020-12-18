@@ -1,6 +1,7 @@
  * {
      margin: 0;
      padding: 0;
+     box-sizing: border-box;
  }
 body {
     /* background-image: url(https://images.unsplash.com/photo-1466853817435-05b43fe45b39?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=60);
@@ -12,13 +13,14 @@ body {
     /* background-position: (top); */
     
 }
-h1 {
+.calc h1 {
 
     color: whitesmoke;
     font-size: 34px;
 }
 .box {
     text-align: center;
+    
 }
 
 table {
@@ -29,6 +31,7 @@ input{
 font-size: 34px;
 height: 65px;
 width: 456px;
+padding: 10px;
 
 
 
@@ -54,7 +57,8 @@ button:hover {
     cursor: pointer;
 }
 .calc {
-    
+    position: relative;
+    bottom: 100px;
     border: 2px solid grey;
     display: inline-block;
     padding: 20px;
@@ -71,10 +75,7 @@ button:hover {
     input {
         margin-bottom: 10px;
     }
-    .box {
-        text-align: center;
-        object-fit: contain;
-    }
+    
    
 }
 
